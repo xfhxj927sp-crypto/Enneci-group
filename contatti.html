@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enneci Group — Contatti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/contatti.css">
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <nav>
+    <a href="index.html" class="nav-logo"><img src="assets/img/logo.png" alt="Enneci Group"></a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="chi-siamo.html">Chi siamo</a>
+      <a href="lavora-con-noi.html">Lavora con noi</a>
+      <a href="news.html">News</a>
+      <a href="contatti.html" class="active">Contatti</a>
+    </div>
+    <a href="lavora-con-noi.html" class="nav-cta">Candidati ora</a>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-bg"></div>
+    <div class="page-hero-inner">
+      <span class="page-tag">Siamo qui per te</span>
+      <h1>Parliamo.</h1>
+      <p>Hai domande, vuoi collaborare o semplicemente vuoi saperne di più? Siamo a tua disposizione.</p>
+    </div>
+  </div>
+
+  <!-- CONTATTI -->
+  <section class="contact-section">
+    <p class="section-tag reveal">Contatti</p>
+    <h2 class="section-title reveal reveal-delay-1">Come puoi<br>trovarci.</h2>
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <div class="contact-block reveal reveal-delay-1">
+          <div class="contact-block-icon">📍</div>
+          <h3>Napoli</h3>
+          <p>Via Toledo 00, 80100 Napoli NA</p>
+          <a href="mailto:napoli@enneci.group">napoli@enneci.group</a>
+          <a href="tel:+390000000000">+39 000 000 0000</a>
+        </div>
+        <div class="contact-block reveal reveal-delay-2">
+          <div class="contact-block-icon">📍</div>
+          <h3>Modena</h3>
+          <p>Via Emilia Centro 00, 41121 Modena MO</p>
+          <a href="mailto:modena@enneci.group">modena@enneci.group</a>
+          <a href="tel:+390000000001">+39 000 000 0001</a>
+        </div>
+        <div class="contact-block reveal reveal-delay-3">
+          <div class="contact-block-icon">✉️</div>
+          <h3>Email generale</h3>
+          <a href="mailto:info@enneci.group">info@enneci.group</a>
+          <p style="margin-top:8px;font-size:13px;color:var(--text-light);">Risponderemo entro 24 ore lavorative</p>
+        </div>
+        <div class="contact-block reveal reveal-delay-4">
+          <div class="contact-block-icon">👥</div>
+          <h3>Seguici</h3>
+          <div class="contact-social-row">
+            <a href="#" class="contact-social-btn">Instagram</a>
+            <a href="#" class="contact-social-btn">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-box reveal reveal-delay-1">
+        <h3>Mandaci un messaggio</h3>
+        <p>Compila il form e ti risponderemo al più presto.</p>
+        <form>
+          <div class="form-group">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Il tuo nome e cognome">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="nome@email.it">
+          </div>
+          <div class="form-group">
+            <label for="oggetto">Oggetto</label>
+            <select id="oggetto" name="oggetto">
+              <option value="">Seleziona il motivo...</option>
+              <option value="info">Informazioni generali</option>
+              <option value="candidatura">Candidatura</option>
+              <option value="partnership">Partnership</option>
+              <option value="media">Media &amp; Press</option>
+              <option value="altro">Altro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="msg">Messaggio</label>
+            <textarea id="msg" name="messaggio" placeholder="Scrivi qui il tuo messaggio..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Invia messaggio →</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div>
+      <div class="footer-logo">Enneci<span>.</span>Group</div>
+      <div class="footer-copy">© 2025 Enneci Group S.r.l. — P.IVA 00000000000</div>
+    </div>
+    <div class="footer-info">
+      <div>📍 Napoli — Via Toledo 00, 80100</div>
+      <div>📍 Modena — Via Emilia Centro 00, 41121</div>
+      <div style="margin-top:8px;"><a href="mailto:info@enneci.group">info@enneci.group</a></div>
+    </div>
+    <div class="footer-social">
+      <a href="#" class="social-link" aria-label="Instagram">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a href="#" class="social-link" aria-label="LinkedIn">
+        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+      </a>
+      <a href="#" class="social-link" aria-label="Facebook">
+        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
