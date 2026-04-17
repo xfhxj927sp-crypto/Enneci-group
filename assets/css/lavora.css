@@ -4,7 +4,9 @@
 
 /* Hero */
 .hero {
-  min-height: 100vh; display: flex; flex-direction: column; justify-content: center;
+  min-height: 100vh;
+  min-height: 100dvh; /* iOS Safari fix */
+  display: flex; flex-direction: column; justify-content: center;
   padding: 140px 60px 100px; position: relative; overflow: hidden;
 }
 .hero-bg {
@@ -53,7 +55,7 @@
 }
 .btn-ghost {
   color: var(--text-mid); font-size: 15px; text-decoration: none;
-  display: flex; align-items: center; gap: 8px; cursor: none;
+  display: flex; align-items: center; gap: 8px; cursor: pointer;
   transition: color 0.3s ease;
 }
 .btn-ghost:hover { color: var(--purple); }
